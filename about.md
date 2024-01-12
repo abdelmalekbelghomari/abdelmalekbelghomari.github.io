@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Currently a student in my first master year in Computer Science and Artificial Intelligence.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I enjoy swimming and hitting the gym too !
+I'm actually more of a couch potato, but hey, it
 
 ### Contact me
 
