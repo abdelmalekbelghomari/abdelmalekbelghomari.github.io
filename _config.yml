@@ -9,15 +9,15 @@ name: Belghomari Abdelmalek
 description: Computer Science and AI Master Student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: ./images/michael_scott_cover.jpeg
+avatar:
 #
 # Flags below are optional
 #
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email: abdelmalek.belghomari [at] ecole.ensicaen.fr
+  dribbble: 
+  email: abdelmalek.belghomari@ecole.ensicaen.fr
   facebook:
   flickr:
   github: vbdlvs
