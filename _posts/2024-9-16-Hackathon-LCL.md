@@ -14,3 +14,5 @@ Working alongside professionals and students who share the same passion for inno
 
 ## Results and perspectives
 After two intense days of work and collaboration, we succeeded in deploying a functional ChatBot. This virtual assistant is capable of answering client questions about LCL’s bank cards, thereby offering an improved user experience and easier access to information.
+
+![_config.yml]({{ site.baseurl }}/images/me_at_hackathon_lcl.jpg)
