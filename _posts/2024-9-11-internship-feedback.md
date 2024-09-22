@@ -34,17 +34,92 @@ During my 4-months internship, I have been working on **Reservoir Computing**.
 
 I had to do research about Resvervoir Computing models and especilally on **Liquid State Machines**, which are Reservoir Computers. My goal was to identify and find an echo property for these models. You will more information about it on these reports I have written. 
 
-<iframe src="{{site.baseurl}}/assets/Report_LSM_Belghomari_Abdelmalek.pdf" width="100%" height="1080px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="{{site.baseurl}}/assets/Report_LSM_Belghomari_Abdelmalek.pdf">Download PDF</a>.
-</iframe>
+<div class="pdf-viewer" id="pdf-viewer-paper" style="overflow-y: scroll; height: 80vh;"></div>
 
+<script>
+  const url = '{{site.baseurl}}/assets/Report_LSM_Belghomari_Abdelmalek.pdf'; // Adjust the path to your PDF file
+
+  // Load the PDF document
+  pdfjsLib.getDocument(url).promise.then(function(pdf) {
+    const totalPages = pdf.numPages;
+
+    // Loop through all the pages
+    for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+      // Fetch each page
+      pdf.getPage(pageNum).then(function(page) {
+        const scale = 1;
+        const viewport = page.getViewport({ scale: scale });
+
+        // Prepare a canvas for each page
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        // Append the canvas to the PDF viewer container
+        document.getElementById('pdf-viewer-paper').appendChild(canvas);
+
+        // Render the page into the canvas context
+        const renderContext = {
+          canvasContext: context,
+          viewport: viewport
+        };
+        page.render(renderContext);
+      });
+    }
+  });
+</script>
+
+<p>Can't view the PDF? <a href="{{site.baseurl}}/assets/Report_LSM_Belghomari_Abdelmalek.pdf" download>Download it here.</a></p>
 You can find this report I made for my University too : 
 
-<iframe src="{{site.baseurl}}/assets/Belghomari_Abdelmalek_report.pdf" width="100%" height="1080px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="{{site.baseurl}}/assets/Belghomari_Abdelmalek_report.pdf">Download PDF</a>.
-</iframe>
+<div class="pdf-viewer" id="pdf-viewer-report" style="overflow-y: scroll; height: 80vh;"></div>
+
+<script>
+  const url_report = '{{site.baseurl}}/assets/Belghomari_Abdelmalek_report.pdf'; // Adjust the path to your PDF file
+
+  // Load the PDF document
+  pdfjsLib.getDocument(url_report).promise.then(function(pdf) {
+    const totalPages_inReport = pdf.numPages;
+
+    // Loop through all the pages
+    for (let pageNum = 1; pageNum <= totalPages_inReport; pageNum++) {
+      // Fetch each page
+      pdf.getPage(pageNum).then(function(page) {
+        const viewport_report = page.getViewport({ scale: scale });
+
+        // Prepare a canvas for each page
+        const canvas_report = document.createElement('canvas');
+        const context_report = canvas.getContext('2d');
+        canvas_report.height = viewport.height;
+        canvas_report.width = viewport.width;
+
+        // Append the canvas to the PDF viewer container
+        document.getElementById('pdf-viewer-report').appendChild(canvas);
+
+        // Render the page into the canvas context
+        const renderContext = {
+          canvasContext: context_report,
+          viewport: viewport_report
+        };
+        page.render(renderContext);
+      });
+    }
+  });
+</script>
+
+<style>
+  .pdf-viewer {
+    width: 100%; /* Full width */
+    max-width: 800px; /* Optional: max width of the PDF viewer */
+    margin: 0 auto; /* Centering the viewer */
+    border: 1px solid #ccc; /* Optional: add a border */
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  }
+</style>
+
+<p>Can't view the PDF? <a href="{{site.baseurl}}/assets/Belghomari_Abdelmalek_report.pdf" download>Download it here.</a></p>
 
 ## My Experience : 
 
