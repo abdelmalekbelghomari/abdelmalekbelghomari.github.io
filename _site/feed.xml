@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/abdelmalek.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/abdelmalek.github.io/" rel="alternate" type="text/html" /><updated>2024-09-22T21:56:28+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/feed.xml</id><title type="html">Belghomari Abdelmalek</title><subtitle>Computer Science and AI Master Student</subtitle><entry><title type="html">Seeking for a 5-to-6 months internship</title><link href="http://localhost:4000/abdelmalek.github.io/internship-seeking/" rel="alternate" type="text/html" title="Seeking for a 5-to-6 months internship" /><published>2024-09-22T00:00:00+02:00</published><updated>2024-09-22T00:00:00+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/internship-seeking</id><content type="html" xml:base="http://localhost:4000/abdelmalek.github.io/internship-seeking/"><![CDATA[<p>For the end of my Master of Sciences in Computer Science and AI, I am searching for an 5-to-6 months internship in the area of Software Development and AI.<br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/abdelmalek.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/abdelmalek.github.io/" rel="alternate" type="text/html" /><updated>2024-09-22T22:08:43+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/feed.xml</id><title type="html">Belghomari Abdelmalek</title><subtitle>Computer Science and AI Master Student</subtitle><entry><title type="html">Seeking for a 5-to-6 months internship</title><link href="http://localhost:4000/abdelmalek.github.io/internship-seeking/" rel="alternate" type="text/html" title="Seeking for a 5-to-6 months internship" /><published>2024-09-22T00:00:00+02:00</published><updated>2024-09-22T00:00:00+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/internship-seeking</id><content type="html" xml:base="http://localhost:4000/abdelmalek.github.io/internship-seeking/"><![CDATA[<p>For the end of my Master of Sciences in Computer Science and AI, I am searching for an 5-to-6 months internship in the area of Software Development and AI.<br /></p>
 
 <p>Here starts my journey as a Computer Science Engineer. You will find my resume down here.</p>
 
@@ -104,23 +104,24 @@
     for (let pageNum = 1; pageNum <= totalPages_inReport; pageNum++) {
       // Fetch each page
       pdf.getPage(pageNum).then(function(page) {
-        const viewport_report = page.getViewport({ scale: scale });
+        const scale_report = 1;
+        const viewport_report = page.getViewport({ scale: scale_report });
 
         // Prepare a canvas for each page
         const canvas_report = document.createElement('canvas');
-        const context_report = canvas.getContext('2d');
-        canvas_report.height = viewport.height;
-        canvas_report.width = viewport.width;
+        const context_report = canvas_report.getContext('2d');
+        canvas_report.height = viewport_report.height;
+        canvas_report.width = viewport_report.width;
 
         // Append the canvas to the PDF viewer container
-        document.getElementById('pdf-viewer-report').appendChild(canvas);
+        document.getElementById('pdf-viewer-report').appendChild(canvas_report);
 
         // Render the page into the canvas context
-        const renderContext = {
+        const renderContext_report = {
           canvasContext: context_report,
           viewport: viewport_report
         };
-        page.render(renderContext);
+        page.render(renderContext_report);
       });
     }
   });

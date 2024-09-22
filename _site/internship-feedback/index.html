@@ -144,23 +144,24 @@
     for (let pageNum = 1; pageNum <= totalPages_inReport; pageNum++) {
       // Fetch each page
       pdf.getPage(pageNum).then(function(page) {
-        const viewport_report = page.getViewport({ scale: scale });
+        const scale_report = 1;
+        const viewport_report = page.getViewport({ scale: scale_report });
 
         // Prepare a canvas for each page
         const canvas_report = document.createElement('canvas');
-        const context_report = canvas.getContext('2d');
-        canvas_report.height = viewport.height;
-        canvas_report.width = viewport.width;
+        const context_report = canvas_report.getContext('2d');
+        canvas_report.height = viewport_report.height;
+        canvas_report.width = viewport_report.width;
 
         // Append the canvas to the PDF viewer container
-        document.getElementById('pdf-viewer-report').appendChild(canvas);
+        document.getElementById('pdf-viewer-report').appendChild(canvas_report);
 
         // Render the page into the canvas context
-        const renderContext = {
+        const renderContext_report = {
           canvasContext: context_report,
           viewport: viewport_report
         };
-        page.render(renderContext);
+        page.render(renderContext_report);
       });
     }
   });
