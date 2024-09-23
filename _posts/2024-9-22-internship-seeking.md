@@ -12,10 +12,3 @@ This marks the beginning of my journey as a Computer Science Engineer. You can f
 </iframe>
 
 [Download my resume]({{site.baseurl}}/assets/BELGHOMARI_Abdelmalek_en_CV.pdf)
-
-<iframe src="{{site.baseurl}}/assets/Belghomari_Abdelmalek_CV_en.pdf" width="100%" height="1080px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="{{site.baseurl}}/assets/Belghomari_Abdelmalek_CV_en.pdf">Download PDF</a>.
-</iframe>
-
-[Download my resume]({{site.baseurl}}/assets/Belghomari_Abdelmalek_CV_en.pdf)
