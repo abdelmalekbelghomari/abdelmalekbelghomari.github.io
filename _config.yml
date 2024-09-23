@@ -72,7 +72,8 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Set the theme (Remote theme or local)
-remote_theme: "jekyll/minima"
+theme: jekyll-theme-cayman
+
 
 # Use the following plug-ins
 plugins:
