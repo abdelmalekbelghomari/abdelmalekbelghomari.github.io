@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/abdelmalek.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/abdelmalek.github.io/" rel="alternate" type="text/html" /><updated>2024-09-22T22:28:09+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/feed.xml</id><title type="html">Belghomari Abdelmalek</title><subtitle>Computer Science and AI Master Student</subtitle><entry><title type="html">Seeking a 5-to-6 Months Internship</title><link href="http://localhost:4000/abdelmalek.github.io/internship-seeking/" rel="alternate" type="text/html" title="Seeking a 5-to-6 Months Internship" /><published>2024-09-22T00:00:00+02:00</published><updated>2024-09-22T00:00:00+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/internship-seeking</id><content type="html" xml:base="http://localhost:4000/abdelmalek.github.io/internship-seeking/"><![CDATA[<p>As part of completing my Master of Science in Computer Science and AI, I am seeking a 5-to-6 month internship in the areas of Software Development and AI.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-23T09:20:25+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Belghomari Abdelmalek</title><subtitle>Computer Science and AI Master Student</subtitle><entry><title type="html">Seeking a 5-to-6 Months Internship</title><link href="http://localhost:4000/internship-seeking/" rel="alternate" type="text/html" title="Seeking a 5-to-6 Months Internship" /><published>2024-09-22T00:00:00+02:00</published><updated>2024-09-22T00:00:00+02:00</updated><id>http://localhost:4000/internship-seeking</id><content type="html" xml:base="http://localhost:4000/internship-seeking/"><![CDATA[<p>As part of completing my Master of Science in Computer Science and AI, I am seeking a 5-to-6 month internship in the areas of Software Development and AI.
 This marks the beginning of my journey as a Computer Science Engineer. You can find my resume below. I am open to opportunities in various fields and locations. My goal is to sharpen my skills and apply the knowledge I have gained from my education and numerous projects. I am <strong>highly motivated</strong> and <strong>eager to gain professional experience</strong>.</p>
 
-<iframe src="/abdelmalek.github.io/assets/BELGHOMARI_Abdelmalek_en_CV.pdf" width="100%" height="1080px">
+<iframe src="/assets/BELGHOMARI_Abdelmalek_en_CV.pdf" width="100%" height="1080px">
     This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/abdelmalek.github.io/assets/BELGHOMARI_Abdelmalek_en_CV.pdf">Download PDF</a>.
+    <a href="/assets/BELGHOMARI_Abdelmalek_en_CV.pdf">Download PDF</a>.
 </iframe>
 
-<p><a href="/abdelmalek.github.io/assets/BELGHOMARI_Abdelmalek_en_CV.pdf">Download my resume</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[As part of completing my Master of Science in Computer Science and AI, I am seeking a 5-to-6 month internship in the areas of Software Development and AI. This marks the beginning of my journey as a Computer Science Engineer. You can find my resume below. I am open to opportunities in various fields and locations. My goal is to sharpen my skills and apply the knowledge I have gained from my education and numerous projects. I am highly motivated and eager to gain professional experience.]]></summary></entry><entry><title type="html">Participated to my first Hackathon!</title><link href="http://localhost:4000/abdelmalek.github.io/Hackathon-LCL/" rel="alternate" type="text/html" title="Participated to my first Hackathon!" /><published>2024-09-16T00:00:00+02:00</published><updated>2024-09-16T00:00:00+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/Hackathon-LCL</id><content type="html" xml:base="http://localhost:4000/abdelmalek.github.io/Hackathon-LCL/"><![CDATA[<h2 id="my-rewarding-experience-at-the-lcl-hackathon-with-google-cloud-platform">My rewarding experience at the LCL hackathon with Google Cloud Platform</h2>
+<p><a href="/assets/BELGHOMARI_Abdelmalek_en_CV.pdf">Download my resume</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[As part of completing my Master of Science in Computer Science and AI, I am seeking a 5-to-6 month internship in the areas of Software Development and AI. This marks the beginning of my journey as a Computer Science Engineer. You can find my resume below. I am open to opportunities in various fields and locations. My goal is to sharpen my skills and apply the knowledge I have gained from my education and numerous projects. I am highly motivated and eager to gain professional experience.]]></summary></entry><entry><title type="html">Participated to my first Hackathon!</title><link href="http://localhost:4000/Hackathon-LCL/" rel="alternate" type="text/html" title="Participated to my first Hackathon!" /><published>2024-09-16T00:00:00+02:00</published><updated>2024-09-16T00:00:00+02:00</updated><id>http://localhost:4000/Hackathon-LCL</id><content type="html" xml:base="http://localhost:4000/Hackathon-LCL/"><![CDATA[<h2 id="my-rewarding-experience-at-the-lcl-hackathon-with-google-cloud-platform">My rewarding experience at the LCL hackathon with Google Cloud Platform</h2>
 <p>Last weekend, I had the exceptional opportunity to participate in a hackathon organized by LCL in collaboration with Google Cloud Platform. This event brought together tech enthusiasts around an ambitious challenge: deploying an AI ChatBot using Gemini AI, specialized in advising on LCL’s bank cards.</p>
 
 <h2 id="a-stimulating-technological-challenge">A stimulating technological challenge</h2>
@@ -18,9 +18,9 @@ This marks the beginning of my journey as a Computer Science Engineer. You can f
 <h2 id="results-and-perspectives">Results and perspectives</h2>
 <p>After two intense days of work and collaboration, we succeeded in deploying a functional ChatBot. This virtual assistant is capable of answering client questions about LCL’s bank cards, thereby offering an improved user experience and easier access to information.</p>
 
-<p><img src="/abdelmalek.github.io/images/me_at_hackathon_lcl.jpg" alt="_config.yml" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[My rewarding experience at the LCL hackathon with Google Cloud Platform Last weekend, I had the exceptional opportunity to participate in a hackathon organized by LCL in collaboration with Google Cloud Platform. This event brought together tech enthusiasts around an ambitious challenge: deploying an AI ChatBot using Gemini AI, specialized in advising on LCL’s bank cards.]]></summary></entry><entry><title type="html">Japan Internship Feedback</title><link href="http://localhost:4000/abdelmalek.github.io/internship-feedback/" rel="alternate" type="text/html" title="Japan Internship Feedback" /><published>2024-09-11T00:00:00+02:00</published><updated>2024-09-11T00:00:00+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/internship-feedback</id><content type="html" xml:base="http://localhost:4000/abdelmalek.github.io/internship-feedback/"><![CDATA[<p>After spending 4 months in Tokyo, Japan with PhD. Ryosuke Hosaka, here my feedback on this incredible journey I experienced.<br /></p>
+<p><img src="/images/me_at_hackathon_lcl.jpg" alt="_config.yml" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[My rewarding experience at the LCL hackathon with Google Cloud Platform Last weekend, I had the exceptional opportunity to participate in a hackathon organized by LCL in collaboration with Google Cloud Platform. This event brought together tech enthusiasts around an ambitious challenge: deploying an AI ChatBot using Gemini AI, specialized in advising on LCL’s bank cards.]]></summary></entry><entry><title type="html">Japan Internship Feedback</title><link href="http://localhost:4000/internship-feedback/" rel="alternate" type="text/html" title="Japan Internship Feedback" /><published>2024-09-11T00:00:00+02:00</published><updated>2024-09-11T00:00:00+02:00</updated><id>http://localhost:4000/internship-feedback</id><content type="html" xml:base="http://localhost:4000/internship-feedback/"><![CDATA[<p>After spending 4 months in Tokyo, Japan with PhD. Ryosuke Hosaka, here my feedback on this incredible journey I experienced.<br /></p>
 
-<p><img src="/abdelmalek.github.io/images/me_with_the_yakuza.jpg" width="70%" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img src="/images/me_with_the_yakuza.jpg" width="70%" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <h2 id="my-wish-">My wish :</h2>
 
@@ -53,7 +53,7 @@ This marks the beginning of my journey as a Computer Science Engineer. You can f
 <div class="pdf-viewer" id="pdf-viewer-paper" style="overflow-y: scroll; height: 80vh;"></div>
 
 <script>
-  const url = '/abdelmalek.github.io/assets/Report_LSM_Belghomari_Abdelmalek.pdf'; // Adjust the path to your PDF file
+  const url = '/assets/Report_LSM_Belghomari_Abdelmalek.pdf'; // Adjust the path to your PDF file
 
   // Load the PDF document
   pdfjsLib.getDocument(url).promise.then(function(pdf) {
@@ -86,13 +86,13 @@ This marks the beginning of my journey as a Computer Science Engineer. You can f
   });
 </script>
 
-<p>Can't view the PDF? <a href="/abdelmalek.github.io/assets/Report_LSM_Belghomari_Abdelmalek.pdf" download="">Download it here.</a></p>
+<p>Can't view the PDF? <a href="/assets/Report_LSM_Belghomari_Abdelmalek.pdf" download="">Download it here.</a></p>
 <p>You can find this report I made for my University too :</p>
 
 <div class="pdf-viewer" id="pdf-viewer-report" style="overflow-y: scroll; height: 80vh;"></div>
 
 <script>
-  const url_report = '/abdelmalek.github.io/assets/Belghomari_Abdelmalek_report.pdf'; // Adjust the path to your PDF file
+  const url_report = '/assets/Belghomari_Abdelmalek_report.pdf'; // Adjust the path to your PDF file
 
   // Load the PDF document
   pdfjsLib.getDocument(url_report).promise.then(function(pdf) {
@@ -136,13 +136,13 @@ This marks the beginning of my journey as a Computer Science Engineer. You can f
   }
 </style>
 
-<p>Can't view the PDF? <a href="/abdelmalek.github.io/assets/Belghomari_Abdelmalek_report.pdf" download="">Download it here.</a></p>
+<p>Can't view the PDF? <a href="/assets/Belghomari_Abdelmalek_report.pdf" download="">Download it here.</a></p>
 
 <h2 id="my-experience-">My Experience :</h2>
 
 <p>What I keep from this experience is all the knowledge I acquired in only 4 months. I also made life-time friends and managed to to exchange and discuss with many researchers from around the world. My english communication just kept to get better and same for my japanese. I discovered so many cultures, met numerous people and have unforgettable memories.</p>
 
-<p>I sincerely thank all the laboratory for this fabulous journey. If you ever read this, I hope to see you again guys and share another 川飯 with you !</p>]]></content><author><name></name></author><summary type="html"><![CDATA[After spending 4 months in Tokyo, Japan with PhD. Ryosuke Hosaka, here my feedback on this incredible journey I experienced.]]></summary></entry><entry><title type="html">My blog have been succesfully created !</title><link href="http://localhost:4000/abdelmalek.github.io/Hello-World/" rel="alternate" type="text/html" title="My blog have been succesfully created !" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/abdelmalek.github.io/Hello-World</id><content type="html" xml:base="http://localhost:4000/abdelmalek.github.io/Hello-World/"><![CDATA[<p>This is the first article I post to make some tests in the code.<br />
+<p>I sincerely thank all the laboratory for this fabulous journey. If you ever read this, I hope to see you again guys and share another 川飯 with you !</p>]]></content><author><name></name></author><summary type="html"><![CDATA[After spending 4 months in Tokyo, Japan with PhD. Ryosuke Hosaka, here my feedback on this incredible journey I experienced.]]></summary></entry><entry><title type="html">My blog have been succesfully created !</title><link href="http://localhost:4000/Hello-World/" rel="alternate" type="text/html" title="My blog have been succesfully created !" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/Hello-World</id><content type="html" xml:base="http://localhost:4000/Hello-World/"><![CDATA[<p>This is the first article I post to make some tests in the code.<br />
 Don’t hesitate to contact me if you have any question on the code I upload here or for any collaboration.</p>
 
-<p><img src="/abdelmalek.github.io/images/me_at_yokohama.jpeg" alt="_config.yml" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[This is the first article I post to make some tests in the code. Don’t hesitate to contact me if you have any question on the code I upload here or for any collaboration.]]></summary></entry></feed>
+<p><img src="/images/me_at_yokohama.jpeg" alt="_config.yml" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[This is the first article I post to make some tests in the code. Don’t hesitate to contact me if you have any question on the code I upload here or for any collaboration.]]></summary></entry></feed>
